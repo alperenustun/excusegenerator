@@ -1,0 +1,96 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a{
+    text-decoration: none;
+}
+
+body{
+    font-family: Poppins, sans-serif;
+    background-image: linear-gradient(to right top, #0069fe, #007cff, #008cff, #009cff, #00aaff);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.github-logo{
+    position: absolute;
+    right: 20px;
+    bottom: 80px;
+}
+
+main{
+    height: 100vh;
+    color: white;
+    text-align: center;
+    padding: 1em 2em;
+    max-width: 400px;
+}
+
+h2{
+    font-size: 2em;
+}
+
+
+.screen{
+    background: white;
+    color: black;
+    height: 400px;
+    width: 336px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 2em;
+    border-radius: 10px;
+    padding: 0 2em;
+}
+
+#myExcuse{
+    font-size: 1.5em;
+}
+
+.category-buttons{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 2em;
+}
+
+.category-button{
+    padding: 0.2em 0.5em;
+    font-size: 0.9em;
+    border: none;
+    border-radius: 5px;
+    background: white;
+    color: #1a1a1a;
+    font-weight: bold;
+}
+
+#getRandomExcuseBtn{
+    margin-top: 2em;
+    padding: 0.8em 1em;
+    font-size: 0.9em;
+    border: none;
+    border-radius: 5px;
+    background: white;
+    color: #1a1a1a;
+    font-weight: bold;
+    font-size: 1.4em;
+    transition: all 200ms ease-in-out;
+}
+
+#getRandomExcuseBtn:active{
+    transform: translateY(5px);
+}
+
+
+@media screen and (min-width: 800px) {
+    main{
+        padding-top: 3em;
+    }
+}
+
